@@ -1,0 +1,50 @@
+// primeira vez em html
+
+
+
+
+
+<html>
+        <head>
+           <title> Página 1 </title>
+        </head>
+         
+         <body bgcolor = '000000'>
+             BOM DIA ! <br><br>
+
+         <font size = '6' color = 'ffffff'>
+
+          Nicolas Maximino <br><br><br>
+         
+         <font size = '7' color = '#FFFF00'>p
+           
+         <font size = '5' color = '#FF0000'>A
+           
+         <font size = '3' color = '#C71585'>r
+           
+         <font size = '2' color = '#8B4513'>A
+           
+         <font size = '2' color = '#00FF00'>b
+           
+         <font size = '3' color = '##00FFFF'>é
+           
+         <font size = '5' color = '#836FFF'>n
+           
+         <font size = '7' color = '#FF1493'>s <br>
+
+          <center>
+         <img src="./img/foto1.jpg" width = 40%>
+          <center>
+
+     <a href="./PaginaMax2.html"> --> </a>
+          
+
+      
+   </body>
+
+  
+
+           
+      
+
+    </html>
