@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <script>
+    document.write("<center>")
+        document.write("<h1 color = 'blue' size= '20'> A SUA MEDIA É<h1>")
+
+   $num1 = prompt("Primeira prova:")
+   $num2 = prompt("Segunda prova:")
+   $num3 = prompt ("tTrabalho:")
+
+   $media = (parseInt($num1) + parseInt($num2) + parseInt($num3)) /3
+   
+   document.write ($media.toFixed(2));
+
+  </script>
+
+<body>
+  
+
+</body>
+
+</html>
