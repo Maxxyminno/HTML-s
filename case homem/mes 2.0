@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+    $mes = prompt("Em que mês estamos ?")
+    switch ($mes) {
+
+        case "1":
+            document.write("Janeiro / Verão")
+            
+            break;
+        case "2":
+            document.write("Fevereiro / Verão")
+            
+            break;
+        case "3":
+            document.write("Março / Outono")
+            
+            break;
+        case "4":
+            document.write("Abril / Outono")
+            
+            break;
+        case "5":
+            document.write("Maio / Outono")
+            
+            break;
+        case "6":
+            document.write("Junho / Inverno")
+            
+            break;
+        case "7":
+            document.write("Julho / Inverno")
+            
+            break;
+        case "8":
+            document.write("Agosto / Inverno")
+            
+            break;
+        case "9":
+            document.write("Setembro / Primavera")
+            
+            break;
+        case "10":
+            document.write("Outubro / Primavera")
+            
+            break;
+        case "11":
+            document.write("Novembro / Primavera")
+            
+            break;
+        case "12":
+            document.write("Dezembro / Verão")
+
+            break;
+    }
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>
