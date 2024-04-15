@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+    $sexo = prompt("Que dia é hoje?")
+    switch ($sexo) {
+        case "Domingo":
+        case "domingo":
+        case "1":
+        case "Sábado":
+        case "sábado":
+        case "2":
+            document.write("Fim de semana")
+            break;
+
+        case "Segunda":
+        case "segunda":
+        case "3":
+
+        case "Terça":
+        case "terça":
+        case "4":
+
+        case "Quarta":
+        case "quarta":
+        case "5":
+
+        case "Quinta":
+        case "quinta":
+        case "6":
+
+        case "Sexta":
+        case "sexta":
+        case "7":
+
+            document.write("Dia útil")
+            break;
+        default:
+            document.write("Opção Inválida !")
+            break;
+
+
+    }
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>
