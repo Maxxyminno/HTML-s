@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form name="form1" action="" method="post"> </form>
+
+    Nome: <input type="text" name=fNome size=16 maxlength=30> <br>
+
+    Idade: <input type="text" name=fIdade size=16 maxlength=9> <br>
+    Cidade: <input type="text" name=fCidade size=16 maxlength=9> <br>
+    Estado: <input type="text" name=fEstado size=16 maxlength=9> <br>
+
+    <br>
+
+    Estado:
+
+    <select name="fEstado">
+        <option value="emBranco">Escolha uma opção abaixo: </option>
+        <option> Acre </options>
+        <option> Alagoas </options>
+        <option> Amapá </options>
+        <option> Amazonas </options>
+        <option> Bahia </options>
+        <option> Ceará </options>
+        <option> Espírito Santo </options>
+        <option> Goiás </options>
+        <option> Maranhão </options>
+        <option> Mato Grosso </options>
+        <option> Mato Grosso do Sul </options>
+        <option> Minas Gerais </options>
+        <option> Pará </options>
+        <option> Paraíba </options>
+        <option> Paraná </options>
+        <option> Pernambuco </options>
+        <option> Piauí </options>
+        <option> Rio de Janeiro </options>
+        <option> Rio Grande do Norte </options>
+        <option> Rio Grande do Sul </options>
+        <option> Rondônia </options>
+        <option> Roraima </options>
+        <option> Santa Catarina </options>
+        <option> São Paulo </options>
+        <option> Sergipe </options>
+        <option> Tocantins </options>
+
+
+    </select> <br> <br>
+
+    Sexo:
+
+    <select name="fSexo">
+        <option value="emBranco">Escolha uma opção abaixo: </option>
+        <option value="masc">Masculino </options>
+        <option value="fem">Feminino </options>
+    </select> <br> <br>
+
+
+    <input type="submit" value="Gravar">
+    <input type="reset" value="Limpar">
+
+</body>
+
+</html>
