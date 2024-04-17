@@ -5,65 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script>
+        function senai() {
+            $nome = this.form1.fNome.value;
+            document.write($nome + ", Cheguei até aqui !")
+            return false;
+        }
+
+    </script>
+
 </head>
 
 <body>
 
-    <form name="form1" action="" method="post"> </form>
-
-    Nome: <input type="text" name=fNome size=16 maxlength=30> <br>
-
-    Idade: <input type="text" name=fIdade size=16 maxlength=9> <br>
-    Cidade: <input type="text" name=fCidade size=16 maxlength=9> <br>
-    Estado: <input type="text" name=fEstado size=16 maxlength=9> <br>
-
-    <br>
-
-    Estado:
-
-    <select name="fEstado">
-        <option value="emBranco">Escolha uma opção abaixo: </option>
-        <option> Acre </options>
-        <option> Alagoas </options>
-        <option> Amapá </options>
-        <option> Amazonas </options>
-        <option> Bahia </options>
-        <option> Ceará </options>
-        <option> Espírito Santo </options>
-        <option> Goiás </options>
-        <option> Maranhão </options>
-        <option> Mato Grosso </options>
-        <option> Mato Grosso do Sul </options>
-        <option> Minas Gerais </options>
-        <option> Pará </options>
-        <option> Paraíba </options>
-        <option> Paraná </options>
-        <option> Pernambuco </options>
-        <option> Piauí </options>
-        <option> Rio de Janeiro </options>
-        <option> Rio Grande do Norte </options>
-        <option> Rio Grande do Sul </options>
-        <option> Rondônia </options>
-        <option> Roraima </options>
-        <option> Santa Catarina </options>
-        <option> São Paulo </options>
-        <option> Sergipe </options>
-        <option> Tocantins </options>
+    <form name="form1" action="" method="post" onsubmit=" return senai()">
 
 
-    </select> <br> <br>
+        Nome: <input type="text" name="fNome" size="16" maxlength="30"> <br>
+        Idade: <input type="text" name="fIdade" size="16" maxlength="9"> <br>
+        Cidade: <input type="text" name="fCidade" size="16" maxlength="9"> <br>
+        <br>
 
-    Sexo:
+        
+        Estado:
 
-    <select name="fSexo">
-        <option value="emBranco">Escolha uma opção abaixo: </option>
-        <option value="masc">Masculino </options>
-        <option value="fem">Feminino </options>
-    </select> <br> <br>
+        <select name="fEstado">
+            <option value="emBranco">Escolha uma opção abaixo: </option>
+            <option value=Acre> Acre </option>
+            <option value=Alagoas> Alagoas </option>
+            <option value=Amapá> Amapá </option>
+            <option value=Amazonas> Amazonas </option>
+            <option value=Bahia> Bahia </option>
+            <option value=Ceará> Ceará </option>
+            <option value=EspíritoSanto> Espírito Santo </option>
+            <option value=Goiás> Goiás </option>
+            <option value=Maranhão> Maranhão </option>
+            <option value=MatoGrosso> Mato Grosso </option>
+            <option value=MatoGrossoDoSul> Mato Grosso do Sul </option>
+            <option value=MinasGerais> Minas Gerais </option>
+            <option value=Pará> Pará </option>
+            <option value=Paraíba> Paraíba </option>
+            <option value=Paraná> Paraná </option>
+            <option value=Pernambuco> Pernambuco </option>
+            <option value=Piauí> Piauí </option>
+            <option value=RioDeJaneiro> Rio de Janeiro </option>
+            <option value=RioGrandeDoNorte> Rio Grande do Norte </option>
+            <option value=RioGrandeDoSul> Rio Grande do Sul </option>
+            <option value=Rondônia> Rondônia </option>
+            <option value=SantaCatarina> Santa Catarina </option>
+            <option value=SãoPaulo> São Paulo </option>
+            <option value=Sergipe> Sergipe </option>
+            <option value=Tocantins> Tocantins </option>
 
 
-    <input type="submit" value="Gravar">
-    <input type="reset" value="Limpar">
+        </select><br> <br>
+
+        Sexo:<br>
+
+        Masculino <input type="radio" name="fSexo" value="masc">
+        <br>
+        Feminino <input type="radio" name="fSexo" value="fem">
+        <br><br>
+
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Limpar">
+
+        </form>
 
 </body>
 
