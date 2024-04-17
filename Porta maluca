@@ -9,26 +9,33 @@
 
 <script>
 
-    $numero = prompt("escolha um numero ?") 
-
+    $numero = prompt("ESCOLHA UM NÚMERO DE 1 A 4")
+    6
     switch ($numero) {
+
         case "1":
-            document.write("<img src ='/IMG/dinheiro.jfif' width = '70%'>")
-            
+            document.write("<center>")
+            document.write("<img src ='/IMG/dinheiro.jfif' width = '40%'>")
+            document.write("</center>")
+
             break;
         case "2":
-            document.write("<img src ='/IMG/mike.jfif' width = '70%'>")
-            
+            document.write("<center>")
+            document.write("<img src ='/IMG/mike.jfif' width = '40%'>")
+            document.write("</center>")
             break;
         case "3":
-            document.write("<img src ='/IMG/sulivan.jfif' width = '70%'>")
-            
+            document.write("<center>")
+            document.write("<img src ='/IMG/sulivan.jfif' width = '40%'>")
+            document.write("</center>")
             break;
         case "4":
-            document.write("<img src ='/IMG/oscar.jfif' width = '170%'>")
-            
+            document.write("<center>")
+            document.write("<img src ='/IMG/oscar.jfif' width = '40%'>")
+            document.write("</center>")
+
             break;
-        
+
     }
 
 
